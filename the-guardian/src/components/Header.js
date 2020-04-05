@@ -1,21 +1,16 @@
-import React from 'react';
-import Guardian from './Guardian'
-import Header from './components/Header'
+// import React, { Component } from 'react';
 
 
-class Header extends React.Component {
-    render() {
-        return(
-            <header className="header">
-                <h1>Support The Guardian</h1>
-                <h2>Support our journalism with a year-end gift</h2>
+// class Header extends Component {
+//     constructor(props) {
+//         super(props);
 
-                <Guardian />
-                <Header />
+//         this.state = {
+//             isLoaded: false,
+//             data: []
 
-            </header>
-        )
-    }
-}
+//         }
+//     }
+// }
 
-export default Header;
+// export default Header;
