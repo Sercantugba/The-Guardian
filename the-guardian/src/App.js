@@ -1,24 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header'
+//import Header from './components/Header'
+
+
 
 export default class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      isLoaded: false,
-      data:[]
+      data: []
     }
   }
 
+
+
+  
   render() {
     return (
       <div>
-        <h1> Welcome to the new Guardian website </h1>
-        <Header />
+        <header>
+          <h1>Welcome to the  Guardian Website</h1>
+        </header>
+
+
       </div>
-      
     )
   }
 }
+
+
+
